@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
 
 <head>
     <meta charset="UTF-8">
@@ -7,55 +7,43 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>Responsive Contact Page</title>
+    <script src="./jquery-3.6.0.js"></script>
 </head>
 
 <body>
 
-    <div class="container">
+    <script>
+        $(function () {
+            $('body').toggle('slow');
+        });
+    </script>
 
+    <div class="container">
 
         <div class="container-background">
 
             <div class="leftPurpleCircle"></div>
-
             <div class="bigGreyCircle"></div>
-
             <div class="smallRedCircle"></div>
 
         </div>
 
-
         <div class="contactSections">
-
 
             <div class="leftSection">
                 <h1>Skontaktuj <span>Się Z Nami</span></h1>
             </div>
 
-            <form class="rightSection">
-
+            <form class="rightSection" action="https://usebasin.com/f/53e4037cb8e2" method="POST">
 
                 <input type="text" placeholder="Imię">
                 <input type="email" placeholder="Email">
                 <textarea placeholder="Twoja Wiadomość" cols="30" rows="10"></textarea>
                 <button>Wyślij</button>
 
-
-
             </form>
-
-
-
-
         </div>
-
-
-
     </div>
-
-
-
-
 </body>
 
 </html>
